@@ -1,0 +1,14 @@
+{
+	"name": "mckinsey",
+	"version": "1.0.0",
+	"readme": "Selenium IDE",
+	"description": "Selenium IDE with BrowserStack Automate",
+	"scripts": {
+		"test": "selenium-side-runner -w 1 Mckinsey.side",
+		"parallel": "selenium-side-runner -w 2 Mckinsey.side",
+		"parallel.firefox": "selenium-side-runner --config-file 'firefox.yml' Mckinsey.side"
+	},
+	"dependencies": {
+		"selenium-side-runner": "3.14.0"
+	}
+}

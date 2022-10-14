@@ -1,0 +1,228 @@
+{
+  "id": "c5963c7a-184d-43fa-8b1d-227c888e1191",
+  "version": "2.0",
+  "name": "Mckinsey",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "574080ce-e058-407c-a642-bcbb393a22ef",
+    "name": "TestOne",
+    "commands": [{
+      "id": "35bcec4c-9b7d-4c39-b234-e5f5c40d1276",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f8c0d907-8c2f-4af1-8654-dfc8f98a3c5f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1057",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b0a3338-0c42-4172-bd5f-c233c3ad8682",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "wiki"
+    }, {
+      "id": "d912bf6f-dbee-4831-b63b-95aa04041de4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl b",
+      "targets": [
+        ["css=.sbhl b", "css:finder"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'pedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "956a1ce2-40b8-420c-af0a-9d6aabb0a302",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MYVUIe:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=.MYVUIe:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div[2]/ul/li/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Wikipedia, the free encyclopedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e09e8f0-29c4-444f-86d1-f8dbf3df39ec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.kvH3mc:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.kvH3mc:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc430489-360d-4645-8f5e-a810b3e115f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.kvH3mc:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.kvH3mc:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Wikipedia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62835eda-1899-4727-8dd0-9080cc4bef4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cfe4b4f-5314-4823-a90d-f116ce1c8cd1",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Browserstack"
+    }, {
+      "id": "bff66c37-6d85-42b1-8927-bb8c6ce096f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.suggestion-text",
+      "targets": [
+        ["css=.suggestion-text", "css:finder"],
+        ["xpath=//div[@id='typeahead-suggestions']/div/a/div", "xpath:idRelative"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "223c4cb2-d8e8-4d59-a61e-70d822a19875",
+    "name": "TestTwo",
+    "commands": [{
+      "id": "b62e15e6-cd3b-4013-bc78-6a258fc1c701",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b165748-666e-462b-a036-8ececda8d7cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1057",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc2f8990-487b-47e7-93ce-221069f65982",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "365571bc-d152-40d1-8cd0-2ec42f3f3471",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7189960-68c0-41ab-a466-64f5f5f004fd",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "browserstack"
+    }, {
+      "id": "ef5d0807-61be-4a68-9bf6-34f7b0f9c1c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl .wM6W7d > span",
+      "targets": [
+        ["css=.sbhl .wM6W7d > span", "css:finder"],
+        ["xpath=//div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'browserstack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ea78da2-a895-4d84-afac-fae8b3debf44",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'BrowserStack: Most Reliable App & Cross Browser Testing ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64b9e986-4cd2-45de-aa62-d1a95142c183",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hero-unit",
+      "targets": [
+        ["css=.hero-unit", "css:finder"],
+        ["xpath=//article[@id='post-26']/div/div/div/div/article", "xpath:idRelative"],
+        ["xpath=//div/article", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad86223f-3e62-4015-ba14-fac36bd8a71d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ed4950cb-5c73-4056-833e-f1554b8a323c",
+    "name": "Mckinsey",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["574080ce-e058-407c-a642-bcbb393a22ef", "223c4cb2-d8e8-4d59-a61e-70d822a19875"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

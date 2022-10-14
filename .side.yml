@@ -1,0 +1,12 @@
+server: 'https://sujaysawant3:9prpFDN9UBAMBhUeoes5@hub-cloud.browserstack.com/wd/hub'
+capabilities:
+  browserName: 'Chrome'
+  browser_version: '105'
+  os: 'Windows'
+  os_version: '10'
+  project: 'Selenium IDE'
+  build: 'McKinsey'
+  name: 'Sample test'
+  browserstack.debug: true
+  browserstack.console: 'verbose'
+  browserstack.networkLogs: true
